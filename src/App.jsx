@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import InfiniteScroll from './components/InfiniteScroll';
+import HomePage from './pages/HomePage';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -10,10 +11,9 @@ function App() {
       <NavBar />
       <main>
         <Routes>
-          <Route path="/" element={<Home />} /> 
+          <Route path="/" element={<HomePage />} /> 
         </Routes>
       </main>
-      <InfiniteScroll />
     </div>
   );
 }
