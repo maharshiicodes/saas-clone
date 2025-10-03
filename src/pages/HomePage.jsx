@@ -4,10 +4,10 @@ import InfiniteScroll from '../components/InfiniteScroll';
 
 function HomePage() {
   return (
-    <>
+    <div className='bg-black'>
       <Home />
       <InfiniteScroll />
-    </>
+   </div>
   );
 }
 

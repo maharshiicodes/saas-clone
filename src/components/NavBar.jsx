@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom';
 
 function NavBar(){
     return(
-        <>
-          <nav className='rounded-md w-ful h-20 flex items-center justify-center'>
+        <div className='bg-black'>
+          <nav className='rounded-md w-ful h-20 flex items-center justify-center bg-transparent'>
             <Link to="/" className='px-5 py-2 text-white bg-transparent rounded-lg transform
             font-sans transition-all duration-300 ease-in-out
             hover:text-blue-500 scale-105 bg-gray-200'>Home</Link>
@@ -29,7 +29,7 @@ function NavBar(){
             <Link to="/consult" className='bg-blue-500 rounded-3xl text-white px-5 py-2 h-10  transform
             hover:scale-105 transition-all duration-300 ease-in-out'>Book Free Consultation </Link>
         </nav>
-        </>
+        </div>
     ) 
 }
 
