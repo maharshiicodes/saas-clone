@@ -31,11 +31,92 @@ function Services(){
                         <p className='text-gray-400 mb-4 group-hover:text-black'>Bespoke applications tailored to your unique business challenges and goals.</p>
                         <a href="#" className='text-blue-400 font-semibold mt-auto'>Learn more &gt;</a>
                     </div>
-
             </div>
-            <div className='text-white'></div>
-            <div></div>
         </div>
+       <div className="bg-[rgb(15,23,42)] text-gray-300 font-sans p-8 mt-8 rounded-xl md:p-16">
+        <div className='relative w-40 rounded-3xl bg-neutral-700 text-white mx-auto text-center py-2 font-sans 
+       before:content-[]  before:absolute before:top-1/3 before:left-3  before:inline-block before:w-4 before:h-3.5 before:rounded-full
+       before:bg-gradient-to-b before:from-blue-300 before:to-blue-600 '>Our Process</div>
+    <h2 className="text-3xl mt-6 md:text-5xl font-bold text-center text-blue-400 mb-16">
+        How It Works
+    </h2>
+    <div className="relative w-full max-w-3xl mx-auto
+                 before:absolute before:top-0 before:left-1/2 
+                before:w-[2px] before:h-full before:bg-slate-700">
+        <div className="relative flex justify-start items-center mb-12
+                    after:absolute after:left-1/2 after:-translate-x-1/2
+                    after:w-4 after:h-4 after:bg-[#0f172a]
+                    after:border-2 after:border-blue-500 after:rounded-full">
+            <div className="w-1/2 pr-8">
+                <div className="bg-slate-800 border border-slate-700 rounded-xl p-5 text-right">
+                    <div className="text-xs text-gray-400 bg-slate-900 inline-block px-3 py-1 rounded-full mb-2">Step 01</div>
+                    <h3 className="text-xl font-bold text-blue-400 mb-2">Discovery Call</h3>
+                    <p className="text-sm text-gray-400">
+                        We start with understanding your vision, requirements, and business goals. This initial consultation helps us map out the perfect strategy for your project.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div className="relative flex justify-end items-center mb-12
+                    after:absolute after:left-1/2 after:-translate-x-1/2
+                    after:w-4 after:h-4 after:bg-[#0f172a]
+                    after:border-2 after:border-blue-500 after:rounded-full">
+            
+            <div className="w-1/2 pl-8">
+                <div className="bg-slate-800 border border-slate-700 rounded-xl p-5 text-left">
+                    <div className="text-xs text-gray-400 bg-slate-900 inline-block px-3 py-1 rounded-full mb-2">Step 02</div>
+                    <h3 className="text-xl font-bold text-blue-400 mb-2">Design</h3>
+                    <p className="text-sm text-gray-400">
+                        Our UI/UX experts create intuitive wireframes and high-fidelity prototypes that capture your brand identity while ensuring exceptional user experience.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div className='relative flex justify-start items-center mb-12
+        after:absolute after:left-1/2 after:-translate-x-1/2
+        after:w-4 after:h-4 after:bg-[#0f172a]
+        after:border-2 after:border-blue-500 after:rounded-full'>
+            <div className='w-1/2 pr-8'>
+              <div className='bg-slate-800 border border-slate-700 rounded-xl p-5 text-right'>
+                <div className='text-xs text-gray-400 bg-slate-900 inline-block px-3 py-1 rounded-full mb-2'>Step 03</div>
+                <h3 className="text-xl font-bold text-blue-400 mb-2">Development</h3>
+                 <p className="text-sm text-gray-400">
+                        Our skilled developers bring the designs to life using clean, scalable code. We follow industry best practices to ensure your application is robust and future-proof.
+                    </p>
+              </div>
+            </div>
+        </div>
+         <div className="relative flex justify-end items-center mb-12
+                    after:absolute after:left-1/2 after:-translate-x-1/2
+                    after:w-4 after:h-4 after:bg-[#0f172a]
+                    after:border-2 after:border-blue-500 after:rounded-full">
+            
+            <div className="w-1/2 pl-8">
+                <div className="bg-slate-800 border border-slate-700 rounded-xl p-5 text-left">
+                    <div className="text-xs text-gray-400 bg-slate-900 inline-block px-3 py-1 rounded-full mb-2">Step 04</div>
+                    <h3 className="text-xl font-bold text-blue-400 mb-2">Testing</h3>
+                    <p className="text-sm text-gray-400">
+                        Rigorous quality assurance across multiple devices and platforms ensures your application is bug-free, responsive, and delivers a seamless experience.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div className='relative flex justify-start items-center mb-12
+        after:absolute after:left-1/2 after:-translate-x-1/2
+        after:w-4 after:h-4 after:bg-[#0f172a]
+        after:border-2 after:border-blue-500 after:rounded-full'>
+            <div className='w-1/2 pr-8'>
+              <div className='bg-slate-800 border border-slate-700 rounded-xl p-5 text-right'>
+                <div className='text-xs text-gray-400 bg-slate-900 inline-block px-3 py-1 rounded-full mb-2'>Step 05</div>
+                <h3 className="text-xl font-bold text-blue-400 mb-2">Deployment</h3>
+                 <p className="text-sm text-gray-400">
+                        We handle the entire submission and release process to make your application available on app stores, followed by continuous support and maintenance.
+                    </p>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
         </div>
     )
 }

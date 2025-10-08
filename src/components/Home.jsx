@@ -12,7 +12,8 @@ function Home() {
                     For Startups & SMEs. Business-results oriented and AI-powered 🚀
                 </h2>
                 {/* <button className=' relative cursor-pointer border border-neutral-600 px-4 py-2 rounded-xl  text-white'><div 
-                className='absolute inset-x-0 -bottom-px h-px w-full bg-gradient-to-r from-transparent via-blue-600 to-transparent'></div>View Portfolio</button> */}
+                className='absolute inset-x-0 -bottom-px h-px w-full bg-gradient-to-r from-transparent via-blue-600 to-transparent'></div>View Portfolio</button>
+                {/*before:-translate-x-1/2 */}
             </div>
         </div>
     );

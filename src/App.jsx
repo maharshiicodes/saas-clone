@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import { Routes, Route } from 'react-router-dom';
 import WhyUs from './components/WhyUs';
 import Services from './components/Services';
+import Projects from'./components/Projects';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<HomePage />} /> 
           <Route path="/why-us" element={<WhyUs />}></Route>
           <Route path="/services" element={<Services />}></Route>
+          <Route path="/projects" element={<Projects/>}></Route>
         </Routes>
       </main>
     </div>
