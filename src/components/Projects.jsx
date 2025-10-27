@@ -1,4 +1,5 @@
 import React from "react";
+import LadakhTempo from '../assets/Images/LadakhTempo.png';
 function Projects(){
     return(
         <>
@@ -13,8 +14,134 @@ function Projects(){
                         [filter:drop-shadow(0_0_30px_white)]'>We believe in the power of technology to empower businesses. 
                             Explore our latest projects and see how we've helped our clients transform their ideas 
                             into reality.</p>
-                            <div className='flex items-center justify-evenly'>
-                              
+                            <div className='flex flex-wrap justify-center gap-8 mt-10'>
+                                {/* Project Cards will go here */}
+                                <div className='bg-white rounded-2xl shadow-lg overflow-hidden max-w-sm w-full border border-gray-100 transform transition-transform hover:scale-105'>
+                                    <div>
+                                        <img
+                                        src={travelLogo}
+                                        alt="Ladakh Tempo"
+                                        className="w-full h-48 object-cover"
+                                        />
+                                    </div>
+                                    <div className='p-6 flex flex-col gap-4'>
+                                        <h3 className="text-2xl font-bold text-gray-900 font-poppins">
+                    Ladakh Tempo
+                  </h3>
+                  <p className='text-gray-600'>App for biggest Tourist Tempo company of ladakh to manage their bookings and drivers.</p>
+                  <div className='flex items-center justify-start gap-2'>
+                    <div className='w-20 text-xs text-center py-1 h-6 bg-blue-100 rounded-sm text-blue-500 font-poppins font-bold'>
+                        Case Study
+                    </div>
+                    <p>View Details</p>
+                  </div>
+                                    </div>
+                                </div>
+                                 <div className='bg-white rounded-2xl shadow-lg overflow-hidden max-w-sm w-full border border-gray-100 transform transition-transform hover:scale-105'>
+                                    <div>
+                                        <img
+                                        src={Lad}
+                                        alt="Ladakh Tempo"
+                                        className="w-full h-48 object-cover"
+                                        />
+                                    </div>
+                                    <div className='p-6 flex flex-col gap-4'>
+                                        <h3 className="text-2xl font-bold text-gray-900 font-poppins">
+                    Ladakh Tempo
+                  </h3>
+                  <p className='text-gray-600'>App for biggest Tourist Tempo company of ladakh to manage their bookings and drivers.</p>
+                  <div className='flex items-center justify-start gap-2'>
+                    <div className='w-20 text-xs text-center py-1 h-6 bg-blue-100 rounded-sm text-blue-500 font-poppins font-bold'>
+                        Case Study
+                    </div>
+                    <p>View Details</p>
+                  </div>
+                                    </div>
+                                </div>
+                                 <div className='bg-white rounded-2xl shadow-lg overflow-hidden max-w-sm w-full border border-gray-100 transform transition-transform hover:scale-105'>
+                                    <div>
+                                        <img
+                                        src={travelLogo}
+                                        alt="Ladakh Tempo"
+                                        className="w-full h-48 object-cover"
+                                        />
+                                    </div>
+                                    <div className='p-6 flex flex-col gap-4'>
+                                        <h3 className="text-2xl font-bold text-gray-900 font-poppins">
+                    Ladakh Tempo
+                  </h3>
+                  <p className='text-gray-600'>App for biggest Tourist Tempo company of ladakh to manage their bookings and drivers.</p>
+                  <div className='flex items-center justify-start gap-2'>
+                    <div className='w-20 text-xs text-center py-1 h-6 bg-blue-100 rounded-sm text-blue-500 font-poppins font-bold'>
+                        Case Study
+                    </div>
+                    <p>View Details</p>
+                  </div>
+                                    </div>
+                                </div>
+                                 <div className='bg-white rounded-2xl shadow-lg overflow-hidden max-w-sm w-full border border-gray-100 transform transition-transform hover:scale-105'>
+                                    <div>
+                                        <img
+                                        src={travelLogo}
+                                        alt="Ladakh Tempo"
+                                        className="w-full h-48 object-cover"
+                                        />
+                                    </div>
+                                    <div className='p-6 flex flex-col gap-4'>
+                                        <h3 className="text-2xl font-bold text-gray-900 font-poppins">
+                    Ladakh Tempo
+                  </h3>
+                  <p className='text-gray-600'>App for biggest Tourist Tempo company of ladakh to manage their bookings and drivers.</p>
+                  <div className='flex items-center justify-start gap-2'>
+                    <div className='w-20 text-xs text-center py-1 h-6 bg-blue-100 rounded-sm text-blue-500 font-poppins font-bold'>
+                        Case Study
+                    </div>
+                    <p>View Details</p>
+                  </div>
+                                    </div>
+                                </div>
+                                 <div className='bg-white rounded-2xl shadow-lg overflow-hidden max-w-sm w-full border border-gray-100 transform transition-transform hover:scale-105'>
+                                    <div>
+                                        <img
+                                        src={travelLogo}
+                                        alt="Ladakh Tempo"
+                                        className="w-full h-48 object-cover"
+                                        />
+                                    </div>
+                                    <div className='p-6 flex flex-col gap-4'>
+                                        <h3 className="text-2xl font-bold text-gray-900 font-poppins">
+                    Ladakh Tempo
+                  </h3>
+                  <p className='text-gray-600'>App for biggest Tourist Tempo company of ladakh to manage their bookings and drivers.</p>
+                  <div className='flex items-center justify-start gap-2'>
+                    <div className='w-20 text-xs text-center py-1 h-6 bg-blue-100 rounded-sm text-blue-500 font-poppins font-bold'>
+                        Case Study
+                    </div>
+                    <p>View Details</p>
+                  </div>
+                                    </div>
+                                </div>
+                                 <div className='bg-white rounded-2xl shadow-lg overflow-hidden max-w-sm w-full border border-gray-100 transform transition-transform hover:scale-105'>
+                                    <div>
+                                        <img
+                                        src={travelLogo}
+                                        alt="Ladakh Tempo"
+                                        className="w-full h-48 object-cover"
+                                        />
+                                    </div>
+                                    <div className='p-6 flex flex-col gap-4'>
+                                        <h3 className="text-2xl font-bold text-gray-900 font-poppins">
+                    Ladakh Tempo
+                  </h3>
+                  <p className='text-gray-600'>App for biggest Tourist Tempo company of ladakh to manage their bookings and drivers.</p>
+                  <div className='flex items-center justify-start gap-2'>
+                    <div className='w-20 text-xs text-center py-1 h-6 bg-blue-100 rounded-sm text-blue-500 font-poppins font-bold'>
+                        Case Study
+                    </div>
+                    <p>View Details</p>
+                  </div>
+                                    </div>
+                                </div>
                             </div>
                  </div>
              </div>
