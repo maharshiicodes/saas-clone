@@ -1,5 +1,10 @@
 import React from "react";
 import LadakhTempo from '../assets/Images/LadakhTempo.png';
+import FoodMama from '../assets/Images/Food Mama.png';
+import TechLand from '../assets/Images/Tech Land.png';
+import ContractWise from '../assets/Images/Contract Wise.png';
+import BoomJournal from '../assets/Images/Boom Journal.png';
+import Yato from '../assets/Images/Yato.png';
 function Projects(){
     return(
         <>
@@ -16,10 +21,10 @@ function Projects(){
                             into reality.</p>
                             <div className='flex flex-wrap justify-center gap-8 mt-10'>
                                 {/* Project Cards will go here */}
-                                <div className='bg-white rounded-2xl shadow-lg overflow-hidden max-w-sm w-full border border-gray-100 transform transition-transform hover:scale-105'>
+                                <div className='bg-white rounded-2xl shadow-lg overflow-hidden max-w-[370px] w-full border border-gray-100 transform transition-transform hover:scale-105'>
                                     <div>
                                         <img
-                                        src={travelLogo}
+                                        src={LadakhTempo}
                                         alt="Ladakh Tempo"
                                         className="w-full h-48 object-cover"
                                         />
@@ -33,117 +38,247 @@ function Projects(){
                     <div className='w-20 text-xs text-center py-1 h-6 bg-blue-100 rounded-sm text-blue-500 font-poppins font-bold'>
                         Case Study
                     </div>
-                    <p>View Details</p>
+                    <p className='text-gray-600'>View Details</p>
                   </div>
                                     </div>
                                 </div>
-                                 <div className='bg-white rounded-2xl shadow-lg overflow-hidden max-w-sm w-full border border-gray-100 transform transition-transform hover:scale-105'>
+                                 <div className='bg-white rounded-2xl shadow-lg overflow-hidden  max-w-[370px] w-full border border-gray-100 transform transition-transform hover:scale-105'>
                                     <div>
                                         <img
-                                        src={Lad}
+                                        src={FoodMama}
                                         alt="Ladakh Tempo"
                                         className="w-full h-48 object-cover"
                                         />
                                     </div>
                                     <div className='p-6 flex flex-col gap-4'>
                                         <h3 className="text-2xl font-bold text-gray-900 font-poppins">
-                    Ladakh Tempo
+                    Food Mama
                   </h3>
-                  <p className='text-gray-600'>App for biggest Tourist Tempo company of ladakh to manage their bookings and drivers.</p>
+                  <p className='text-gray-600'>The best food delivery app in town, and enjoy delicious meals from your favourite restaurants.</p>
                   <div className='flex items-center justify-start gap-2'>
                     <div className='w-20 text-xs text-center py-1 h-6 bg-blue-100 rounded-sm text-blue-500 font-poppins font-bold'>
                         Case Study
                     </div>
-                    <p>View Details</p>
+                    <p className='text-gray-600'>View Details</p>
                   </div>
                                     </div>
                                 </div>
-                                 <div className='bg-white rounded-2xl shadow-lg overflow-hidden max-w-sm w-full border border-gray-100 transform transition-transform hover:scale-105'>
+                                 <div className='bg-white rounded-2xl shadow-lg overflow-hidden max-w-[370px] w-full border border-gray-100 transform transition-transform hover:scale-105'>
                                     <div>
                                         <img
-                                        src={travelLogo}
+                                        src={TechLand}
                                         alt="Ladakh Tempo"
                                         className="w-full h-48 object-cover"
                                         />
                                     </div>
                                     <div className='p-6 flex flex-col gap-4'>
                                         <h3 className="text-2xl font-bold text-gray-900 font-poppins">
-                    Ladakh Tempo
+                    TechLand
                   </h3>
-                  <p className='text-gray-600'>App for biggest Tourist Tempo company of ladakh to manage their bookings and drivers.</p>
+                  <p className='text-gray-600'>TechLand is a AgroFinTech application that serves as a hub for agricultural investments and returns.</p>
                   <div className='flex items-center justify-start gap-2'>
                     <div className='w-20 text-xs text-center py-1 h-6 bg-blue-100 rounded-sm text-blue-500 font-poppins font-bold'>
                         Case Study
                     </div>
-                    <p>View Details</p>
+                    <p className='text-gray-600'>View Details</p>
                   </div>
                                     </div>
                                 </div>
-                                 <div className='bg-white rounded-2xl shadow-lg overflow-hidden max-w-sm w-full border border-gray-100 transform transition-transform hover:scale-105'>
+                                 <div className='bg-white rounded-2xl shadow-lg overflow-hidden max-w-[370px] w-full border border-gray-100 transform transition-transform hover:scale-105'>
                                     <div>
                                         <img
-                                        src={travelLogo}
+                                        src={ContractWise}
                                         alt="Ladakh Tempo"
                                         className="w-full h-48 object-cover"
                                         />
                                     </div>
                                     <div className='p-6 flex flex-col gap-4'>
                                         <h3 className="text-2xl font-bold text-gray-900 font-poppins">
-                    Ladakh Tempo
+                    Contract Wise
                   </h3>
-                  <p className='text-gray-600'>App for biggest Tourist Tempo company of ladakh to manage their bookings and drivers.</p>
+                  <p className='text-gray-600'>Contract Wise is a platform that simplifies contract management for businesses.</p>
                   <div className='flex items-center justify-start gap-2'>
                     <div className='w-20 text-xs text-center py-1 h-6 bg-blue-100 rounded-sm text-blue-500 font-poppins font-bold'>
                         Case Study
                     </div>
-                    <p>View Details</p>
+                    <p className='text-gray-600'> View Details</p>
                   </div>
                                     </div>
                                 </div>
-                                 <div className='bg-white rounded-2xl shadow-lg overflow-hidden max-w-sm w-full border border-gray-100 transform transition-transform hover:scale-105'>
+                                 <div className='bg-white rounded-2xl shadow-lg overflow-hidden max-w-[370px] w-full border border-gray-100 transform transition-transform hover:scale-105'>
                                     <div>
                                         <img
-                                        src={travelLogo}
+                                        src={BoomJournal}
                                         alt="Ladakh Tempo"
                                         className="w-full h-48 object-cover"
                                         />
                                     </div>
                                     <div className='p-6 flex flex-col gap-4'>
                                         <h3 className="text-2xl font-bold text-gray-900 font-poppins">
-                    Ladakh Tempo
+                    Boom Journal
                   </h3>
-                  <p className='text-gray-600'>App for biggest Tourist Tempo company of ladakh to manage their bookings and drivers.</p>
+                  <p className='text-gray-600'>Boom Journal is a digital journaling app that helps users document their thoughts and experiences.</p>
                   <div className='flex items-center justify-start gap-2'>
                     <div className='w-20 text-xs text-center py-1 h-6 bg-blue-100 rounded-sm text-blue-500 font-poppins font-bold'>
                         Case Study
                     </div>
-                    <p>View Details</p>
+                    <p className='text-gray-600'>View Details</p>
                   </div>
                                     </div>
                                 </div>
-                                 <div className='bg-white rounded-2xl shadow-lg overflow-hidden max-w-sm w-full border border-gray-100 transform transition-transform hover:scale-105'>
+                                 <div className='bg-white rounded-2xl shadow-lg overflow-hidden max-w-[370px] w-full border border-gray-100 transform transition-transform hover:scale-105'>
                                     <div>
                                         <img
-                                        src={travelLogo}
+                                        src={Yato}
                                         alt="Ladakh Tempo"
                                         className="w-full h-48 object-cover"
                                         />
                                     </div>
                                     <div className='p-6 flex flex-col gap-4'>
                                         <h3 className="text-2xl font-bold text-gray-900 font-poppins">
-                    Ladakh Tempo
+                    Yato - Parking Assistance
                   </h3>
-                  <p className='text-gray-600'>App for biggest Tourist Tempo company of ladakh to manage their bookings and drivers.</p>
+                  <p className='text-gray-600'>Yato Parking Assistant allows you to generate parking tickets and manage your parking space efficiently.</p>
                   <div className='flex items-center justify-start gap-2'>
                     <div className='w-20 text-xs text-center py-1 h-6 bg-blue-100 rounded-sm text-blue-500 font-poppins font-bold'>
                         Case Study
                     </div>
-                    <p>View Details</p>
+                    <p className='text-gray-600'>View Details</p>
                   </div>
                                     </div>
                                 </div>
                             </div>
                  </div>
+             </div>
+              <div className='bg-white w-full flex md:flex-col md:items-center md:justify-center lg:flex-col items-center justify-center flex-wrap mt-30'>
+                   <h1 className='text-black font-poppins text-center font-bold text-5xl pt-20 pb-10 tracking-tighter pr-10 ml-5'>CLIENTS ARE SAYING</h1>
+                   <div className="flex gap-2 justify-center flex-wrap md:flex-col lg:flex-row">
+                      <div className="rounded-xl h-60 w-120 bg-gray-800 mb-10">
+                          <div className="flex flex-col justify-center gap-2 ">
+                                <div className="flex">
+                                    <div className="rounded-4xl h-14 w-14 ml-6 mt-8 bg-gray-700 flex items-center justify-center">
+                                        <svg 
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                        className="w-8 h-8 text-gray-400"
+                                       >
+                                        <path
+                                            fillRule="evenodd"
+                                            d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                                            clipRule="evenodd"
+                                        />
+                                        </svg>
+                                    </div>
+                                    <div className="flex flex-col justify-center">
+                                        <p className="text-white text-xl  mt-8 ml-4 font-bold tracking-tight font-poppins">CEO-Boom Journal(1m+ Followers)</p>
+                                        <p className="text-gray-400 ml-4 font-poppins">Matthew West</p>
+                                    </div>
+                                </div>
+                                <p className="text-white mx-9 my-5 font-bold font-poppins">I appreciate the hard work and dedication your team has done for this app. you guys delivered an outstanding product and made the process seamless."</p>
+                          </div>
+                      </div>
+                      <div className="rounded-xl h-80 w-120 bg-gray-800 mb-10">
+                          <div className="flex flex-col justify-center gap-2 ">
+                                <div className="flex">
+                                    <div className="rounded-4xl h-14 w-14 ml-6 mt-8 bg-gray-700 flex items-center justify-center">
+                                        <svg 
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                        className="w-8 h-8 text-gray-400"
+                                       >
+                                        <path
+                                            fillRule="evenodd"
+                                            d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                                            clipRule="evenodd"
+                                        />
+                                        </svg>
+                                    </div>
+                                    <div className="flex flex-col justify-center">
+                                        <p className="text-white text-xl  mt-8 ml-4 font-bold tracking-tight font-poppins">CTO - TECHLAND</p>
+                                        <p className="text-gray-400 ml-4 font-poppins">Ashish Sharma</p>
+                                    </div>
+                                </div>
+                                <p className="text-white mx-9 my-5 font-bold font-poppins">I had the pleasure of working closely with Flutter Your Way on the TechLand app. Their seamless integration of APIs and payment gateways contributed to advanced features. Their innovative mindset, commitment to quality, and effective communication make them an asset to any project."</p>
+                          </div>
+                      </div>
+                      <div className="rounded-xl h-70 w-120 bg-gray-800 mb-10">
+                          <div className="flex flex-col justify-center gap-2 ">
+                                <div className="flex">
+                                    <div className="rounded-4xl h-14 w-14 ml-6 mt-8 bg-gray-700 flex items-center justify-center">
+                                        <svg 
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                        className="w-8 h-8 text-gray-400"
+                                       >
+                                        <path
+                                            fillRule="evenodd"
+                                            d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                                            clipRule="evenodd"
+                                        />
+                                        </svg>
+                                    </div>
+                                    <div className="flex flex-col justify-center">
+                                        <p className="text-white text-xl  mt-8 ml-4 font-bold tracking-tight font-poppins">CEO - Finixia Dedecons</p>
+                                        <p className="text-gray-400 ml-4 font-poppins">Anurag Bezboruah</p>
+                                    </div>
+                                </div>
+                                <p className="text-white mx-9 my-5 font-bold font-poppins">Absolute win for my team, only possible because of the high-end application delivered by Flutter Your Way. Very, very satisfied with their work. Would highly recommend them for freelance projects as well as for team participation."</p>
+                          </div>
+                      </div>
+                      <div className="rounded-xl h-70 w-120 bg-gray-800 mb-10">
+                          <div className="flex flex-col justify-center gap-2 ">
+                                <div className="flex">
+                                    <div className="rounded-4xl h-14 w-14 ml-6 mt-8 bg-gray-700 flex items-center justify-center">
+                                        <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                        className="w-8 h-8 text-gray-400"
+                                       >
+                                        <path
+                                            fillRule="evenodd"
+                                            d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                                            clipRule="evenodd"
+                                        />
+                                        </svg>
+                                    </div>
+                                    <div className="flex flex-col justify-center">
+                                        <p className="text-white text-xl  mt-8 ml-4 font-bold tracking-tight font-poppins">Company</p>
+                                        <p className="text-gray-400 ml-4 font-poppins">Wolf Technologies</p>
+                                    </div>
+                                </div>
+                                <p className="text-white mx-9 my-5 font-bold font-poppins">We've completed 3 projects with Flutter Your Way, and they've always delivered exceptional results. Their expertise, attention to detail, and excellent communication make them a top choice for app development. Highly recommend!"</p>
+                          </div>
+                      </div>
+                      <div className="rounded-xl h-60 w-120 bg-gray-800 mb-10">
+                          <div className="flex flex-col justify-center gap-2 ">
+                                <div className="flex">
+                                    <div className="rounded-4xl h-14 w-14 ml-6 mt-8 bg-gray-700 flex items-center justify-center">
+                                        <svg 
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                        className="w-8 h-8 text-gray-400"
+                                       >
+                                        <path
+                                            fillRule="evenodd"
+                                            d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                                            clipRule="evenodd"
+                                        />
+                                        </svg>
+                                    </div>
+                                    <div className="flex flex-col justify-center">
+                                        <p className="text-white text-xl  mt-8 ml-4 font-bold tracking-tight font-poppins">Simranpreet Singh</p>
+                                        <p className="text-gray-400 ml-4 font-poppins">Simranpreet Singh</p>
+                                    </div>
+                                </div>
+                                <p className="text-white mx-9 my-5 font-bold font-poppins">The team is incredibly skilled and professional. They delivered our MVP on time and within budget. We appreciated their clear communication and dedication to our project's success."</p>
+                          </div>
+                      </div>
+                   </div>
              </div>
         </>
     )
