@@ -10,12 +10,12 @@ function Projects(){
         <>
              <div className='flex flex-col items-center'>
                  <div className='flex flex-col items-center gap-7'>
-                     <div className='relative w-40 rounded-3xl bg-blue-200 text-blue-700 mx-auto text-center py-2 font-poppins 
+                     {/* <div className='relative w-40 rounded-3xl bg-gray-200 text-gray-700 mx-auto text-center py-2 font-poppins 
                         before:content-[]  before:absolute before:top-1/3 before:left-3  before:inline-block before:w-4 before:h-3.5 before:rounded-full
-                        before:bg-gradient-to-b before:from-blue-300 before:to-blue-600 '>Our Work</div>
-                        <h1 className='font-poppins text-5xl tracking-tight bg-gradient-to-r from-blue-400 via-purple-300 to-blue-900 bg-clip-text text-transparent font-bold
+                        before:bg-gradient-to-b before:from-gray-300 before:to-gray-600 '>Our Work</div> */}
+                        <h1 className='font-poppins text-5xl tracking-tight bg-gradient-to-r from-gray-600 via-gray-300 to-gray-600 bg-clip-text text-transparent font-bold
                         [filter:drop-shadow(0_0_40px_white)]'>Featured Projects</h1>
-                        <p className='text-transparent text-center bg-gradient-to-r from-blue-400 via-purple-300 to-blue-900 bg-clip-text
+                        <p className='text-transparent text-center bg-gradient-to-r from-gray-600 via-gray-300 to-gray-600 bg-clip-text
                         [filter:drop-shadow(0_0_30px_white)]'>We believe in the power of technology to empower businesses. 
                             Explore our latest projects and see how we've helped our clients transform their ideas 
                             into reality.</p>
@@ -150,10 +150,10 @@ function Projects(){
                             </div>
                  </div>
              </div>
-              <div className='bg-white w-full flex md:flex-col md:items-center md:justify-center lg:flex-col items-center justify-center flex-wrap mt-30'>
-                   <h1 className='text-black font-poppins text-center font-bold text-5xl pt-20 pb-10 tracking-tighter pr-10 ml-5'>CLIENTS ARE SAYING</h1>
-                   <div className="flex gap-2 justify-center flex-wrap md:flex-col lg:flex-row">
-                      <div className="rounded-xl h-60 w-120 bg-gray-800 mb-10">
+              <div className='bg-black w-full flex md:flex-col md:items-center md:justify-center lg:flex-col items-center justify-center flex-wrap mt-30'>
+                   <h1 className='bg-gradient-to-r from-gray-600 via-gray-300 to-gray-600 bg-clip-text text-transparent font-poppins text-center font-bold text-5xl pt-10 pb-10 tracking-tighter pr-10 ml-5 mb-10'>CLIENTS ARE SAYING</h1>
+                   <div className="flex gap-10 justify-center flex-wrap md:flex-col lg:flex-row">
+                      <div className="rounded-xl h-60 w-120 bg-gray-800 mb-10 transform transition-transform hover:scale-105 [filter:drop-shadow(0_0_5px_white)]">
                           <div className="flex flex-col justify-center gap-2 ">
                                 <div className="flex">
                                     <div className="rounded-4xl h-14 w-14 ml-6 mt-8 bg-gray-700 flex items-center justify-center">
@@ -175,10 +175,10 @@ function Projects(){
                                         <p className="text-gray-400 ml-4 font-poppins">Matthew West</p>
                                     </div>
                                 </div>
-                                <p className="text-white mx-9 my-5 font-bold font-poppins">I appreciate the hard work and dedication your team has done for this app. you guys delivered an outstanding product and made the process seamless."</p>
+                                <p className="text-white mx-9 my-5 font-bold text-sm font-poppins">I appreciate the hard work and dedication your team has done for this app. you guys delivered an outstanding product and made the process seamless."</p>
                           </div>
                       </div>
-                      <div className="rounded-xl h-80 w-120 bg-gray-800 mb-10">
+                      <div className="rounded-xl h-60 w-120 bg-gray-800 mb-10 transition-transform hover:scale-105 [filter:drop-shadow(0_0_7px_white)]">
                           <div className="flex flex-col justify-center gap-2 ">
                                 <div className="flex">
                                     <div className="rounded-4xl h-14 w-14 ml-6 mt-8 bg-gray-700 flex items-center justify-center">
@@ -200,10 +200,10 @@ function Projects(){
                                         <p className="text-gray-400 ml-4 font-poppins">Ashish Sharma</p>
                                     </div>
                                 </div>
-                                <p className="text-white mx-9 my-5 font-bold font-poppins">I had the pleasure of working closely with Flutter Your Way on the TechLand app. Their seamless integration of APIs and payment gateways contributed to advanced features. Their innovative mindset, commitment to quality, and effective communication make them an asset to any project."</p>
+                                <p className="text-white mx-9 my-5 font-bold text-sm font-poppins">I had the pleasure of working closely with Flutter Your Way on the TechLand app. Their seamless integration of APIs and payment gateways contributed to advanced features. Their innovative mindset, commitment to quality, and effective communication make them an asset to any project."</p>
                           </div>
                       </div>
-                      <div className="rounded-xl h-70 w-120 bg-gray-800 mb-10">
+                      <div className="rounded-xl h-60 w-120 bg-gray-800 mb-10 transition-transform hover:scale-105 [filter:drop-shadow(0_0_7px_white)]">
                           <div className="flex flex-col justify-center gap-2 ">
                                 <div className="flex">
                                     <div className="rounded-4xl h-14 w-14 ml-6 mt-8 bg-gray-700 flex items-center justify-center">
@@ -225,10 +225,10 @@ function Projects(){
                                         <p className="text-gray-400 ml-4 font-poppins">Anurag Bezboruah</p>
                                     </div>
                                 </div>
-                                <p className="text-white mx-9 my-5 font-bold font-poppins">Absolute win for my team, only possible because of the high-end application delivered by Flutter Your Way. Very, very satisfied with their work. Would highly recommend them for freelance projects as well as for team participation."</p>
+                                <p className="text-white mx-9 my-5 font-bold text-sm font-poppins">Absolute win for my team, only possible because of the high-end application delivered by Flutter Your Way. Very, very satisfied with their work. Would highly recommend them for freelance projects as well as for team participation."</p>
                           </div>
                       </div>
-                      <div className="rounded-xl h-70 w-120 bg-gray-800 mb-10">
+                      <div className="rounded-xl h-60 w-120 bg-gray-800 mb-10 transition-transform hover:scale-105 [filter:drop-shadow(0_0_7px_white)]">
                           <div className="flex flex-col justify-center gap-2 ">
                                 <div className="flex">
                                     <div className="rounded-4xl h-14 w-14 ml-6 mt-8 bg-gray-700 flex items-center justify-center">
@@ -250,10 +250,10 @@ function Projects(){
                                         <p className="text-gray-400 ml-4 font-poppins">Wolf Technologies</p>
                                     </div>
                                 </div>
-                                <p className="text-white mx-9 my-5 font-bold font-poppins">We've completed 3 projects with Flutter Your Way, and they've always delivered exceptional results. Their expertise, attention to detail, and excellent communication make them a top choice for app development. Highly recommend!"</p>
+                                <p className="text-white mx-9 my-5 font-bold text-sm font-poppins">We've completed 3 projects with Flutter Your Way, and they've always delivered exceptional results. Their expertise, attention to detail, and excellent communication make them a top choice for app development. Highly recommend!"</p>
                           </div>
                       </div>
-                      <div className="rounded-xl h-60 w-120 bg-gray-800 mb-10">
+                      <div className="rounded-xl h-60 w-120 bg-gray-800 mb-10 transition-transform hover:scale-105 [filter:drop-shadow(0_0_7px_white)]">
                           <div className="flex flex-col justify-center gap-2 ">
                                 <div className="flex">
                                     <div className="rounded-4xl h-14 w-14 ml-6 mt-8 bg-gray-700 flex items-center justify-center">
@@ -275,7 +275,7 @@ function Projects(){
                                         <p className="text-gray-400 ml-4 font-poppins">Simranpreet Singh</p>
                                     </div>
                                 </div>
-                                <p className="text-white mx-9 my-5 font-bold font-poppins">The team is incredibly skilled and professional. They delivered our MVP on time and within budget. We appreciated their clear communication and dedication to our project's success."</p>
+                                <p className="text-white mx-9 my-5 font-bold text-sm font-poppins">The team is incredibly skilled and professional. They delivered our MVP on time and within budget. We appreciated their clear communication and dedication to our project's success."</p>
                           </div>
                       </div>
                    </div>
