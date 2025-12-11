@@ -11,7 +11,7 @@ function Blogs(){
                 <p className="text-sm text-white font-poppins  font-bold mt-[4px]">Insights & News</p>
             </div>
             <p className="text-4xl mt-4 ml-4 bg-gradient-to-r from-gray-600 via-gray-300 to-gray-600 bg-clip-text text-transparent font-poppins font-bold">WHAT'S NEW IN OUR BLOG</p>
-            <div className=" flex flex-col justify-start gap-10 items-center lg:flex-row lg:gap-10 lg:flex-wrap pt-5 pl-10">
+            <div className=" flex flex-col justify-start gap-10 items-center lg:flex-row lg:gap-10 lg:justify-evenly pt-5 pl-10">
                 <div className="flex flex-wrap flex-col justify-center max-w-100 rounded-md">
                    <div className="overflow-hidden">
                      <img
@@ -141,6 +141,19 @@ function Blogs(){
                       </div>
                    </div>
                 </div>
+            </div>
+            <div className="flex justify-evenly  bg-slate-800 h-70 rounded-xl mt-40 ml-20 max-w-200 mb-40 lg:ml-140">
+               <div className="py-15 px-15">
+                  <h1 className = "text-white text-3xl font-mono font-extrabold tracking-normal">Stay updated with our tech insights</h1>
+                  <p className="text-slate-400 font-semibold">Join our newsletter to receive the latest updates on app development, Flutter innovations, and industry trends directly to your inbox</p>
+               </div>
+               <div className="flex-col items-center py-20">
+                  <input type="email" placeholder="Your email address" className="bg-slate-700 w-60 h-15 mr-10 rounded-full placeholder:text-white text-center"/>
+                  <button className="bg-blue-500 w-60 h-15 rounded-full mt-4 cursor-pointer text-white font-bold text-xl font-mono">Subscribe</button>
+               </div>
+            </div>
+            <div className="none">
+            <h1>huhfe</h1>
             </div>
         </>
     )
