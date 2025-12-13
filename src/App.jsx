@@ -8,6 +8,7 @@ import WhyUs from './components/WhyUs';
 import Services from './components/Services';
 import Projects from'./components/Projects';
 import Blogs from './components/Blogs';
+import Pricing from './components/Pricing';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/services" element={<Services />}></Route>
           <Route path="/projects" element={<Projects/>}></Route>
           <Route path="/blogs" element={<Blogs/>}></Route>
+          <Route path="/pricing" element={<Pricing/>}></Route>
         </Routes>
       </main>
     </div>
