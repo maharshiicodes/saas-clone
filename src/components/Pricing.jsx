@@ -176,7 +176,7 @@ export default function Pricing(){
                     <h1 className="text-3xl font-bold ml-3 mt-10">MVP<br></br>Development</h1>
                     <p className="ml-3 mt-2 text-neutral-500 font-semibold text-md">Complete Starter Package</p>
                     <div className="flex gap-2">
-                        <h1 className="ml-3 mt-2 text-4xl font-extrabold">$2499</h1>
+                        <h1 className="ml-3 mt-2 text-4xl font-extrabold">$2,499</h1>
                         <p className="text-neutral-500 mt-4 text-xl font-bold">USD</p>
                     </div>
                     <div className="bg-neutral-200 h-0.5 w-59 ml-7 mr-8 mt-5"></div>
@@ -349,10 +349,10 @@ export default function Pricing(){
                      </div>
                   </div> 
                   <div className="flex flex-col items-start w-75 h-215 rounded-2xl bg-white transition-all duration-500 hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] hover:scale-[1.02]">
-                    <h1 className="text-3xl font-bold ml-3 mt-10">Frontend<br></br>Development</h1>
-                    <p className="ml-3 mt-2 text-neutral-500 font-semibold text-md">Basic App Package</p>
+                    <h1 className="text-3xl font-bold ml-3 mt-10">Full-Cycle-App<br></br>Development</h1>
+                    <p className="ml-3 mt-2 text-neutral-500 font-semibold text-md">Everything You Need</p>
                     <div className="flex gap-2">
-                        <h1 className="ml-3 mt-2 text-4xl font-extrabold">$799</h1>
+                        <h1 className="ml-3 mt-2 text-4xl font-extrabold">$4,499</h1>
                         <p className="text-neutral-500 mt-4 text-xl font-bold">USD</p>
                     </div>
                     <div className="bg-neutral-200 h-0.5 w-59 ml-7 mr-8 mt-5"></div>
